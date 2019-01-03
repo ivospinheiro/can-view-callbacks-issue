@@ -1,0 +1,28 @@
+{
+  "name": "can-view-callbacks-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "start": "node_modules/http-server/bin/http-server -c-1"
+  },
+  "steal": {
+    "main": "index",
+    "directories": {
+      "lib": "src"
+    },
+    "plugins": [
+      "steal-svg"
+    ]
+  },
+  "dependencies": {
+    "ag-grid-community": "^19.1.4",
+    "babel-polyfill": "^6.26.0",
+    "can-component": "^4.4.11",
+    "http-server": "^0.11.1",
+    "steal": "^2.1.12"
+  }
+}
